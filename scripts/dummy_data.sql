@@ -4,7 +4,7 @@ INSERT INTO store (id, name, address) VALUES
     (3, 'Store 3', 'Address 3')
 ;
 
-INSERT INTO cake (id, name, size, price) VALUES 
+INSERT INTO cake (id, name, size_in_kg, price) VALUES 
     (1, 'Chocolate', 0.5, 50.0), 
     (2, 'Chocolate', 2, 100.0), 
     (3, 'Chocolate', 1.5, 150.0), 
@@ -58,4 +58,3 @@ INSERT INTO cake_order_items (id, order_id, cake_id) VALUES
     (19, 13, 5),
     (20, 14, 6)
 ;
-

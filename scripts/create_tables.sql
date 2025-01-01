@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS store (
 CREATE TABLE IF NOT EXISTS cake (
     id SERIAL PRIMARY KEY,
     name TEXT NOT NULL,
-    size DECIMAL(10, 2) NOT NULL,
+    size_in_kg DECIMAL(10, 2) NOT NULL,
     price DECIMAL(10, 2) NOT NULL
 );
 
