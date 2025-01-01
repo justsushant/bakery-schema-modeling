@@ -1,0 +1,9 @@
+One to One Relationships:
+    None
+
+One to Many Relationships:
+    store -> cake_order
+    cake_order -> cake_order_items
+
+Many to Many Relationships:
+    cake -> cake_order
